@@ -1,0 +1,22 @@
+{
+  "whisper.h": {
+    "url": "https://raw.githubusercontent.com/ggml-org/whisper.cpp/v1.8.3/include/whisper.h",
+    "sha256": "0525b758571ab71c00ddd8ea2845f74af7c62dfa5100c5586655f75bdc5ef4be"
+  },
+  "ggml.h": {
+    "url": "https://raw.githubusercontent.com/ggml-org/whisper.cpp/v1.8.3/ggml/include/ggml.h",
+    "sha256": "70c93e25d18b661ef982ee3cab8dd75734d9cd20b59bca5deb7073a5e6f338e1"
+  },
+  "ggml-cpu.h": {
+    "url": "https://raw.githubusercontent.com/ggml-org/whisper.cpp/v1.8.3/ggml/include/ggml-cpu.h",
+    "sha256": "6d57ebc3df51169c0f0d4d6e9459595fa0568fa1b515546735067c6ecfd4bc63"
+  },
+  "ggml-backend.h": {
+    "url": "https://raw.githubusercontent.com/ggml-org/whisper.cpp/v1.8.3/ggml/include/ggml-backend.h",
+    "sha256": "3774c77515070f40f7dfb0aefdcb36f940537730e5891431dfeea338723923d5"
+  },
+  "ggml-alloc.h": {
+    "url": "https://raw.githubusercontent.com/ggml-org/whisper.cpp/v1.8.3/ggml/include/ggml-alloc.h",
+    "sha256": "3793a2175be355619cc426982706b7fa94ad801b66d2aeef4b95e68c434ba0ef"
+  }
+}

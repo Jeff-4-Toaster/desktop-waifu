@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "version": "156.0.4314.42",
+  "architecture": "x64",
+  "filename": "Microsoft.WebView2.FixedVersionRuntime.156.0.4314.42.x64.cab",
+  "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/074c0930-36ad-4756-9d04-dfe0e503bd94/Microsoft.WebView2.FixedVersionRuntime.156.0.4314.42.x64.cab",
+  "size": 310135141,
+  "official_sha256": null,
+  "reviewed_sha256": "cb4612ce79a62a0be094301a72f73cf91bb250f5e83dc51886f66a083fc0694f",
+  "sha256_provenance": "Microsoft public version API and CAB HEAD publish no SHA256; first computed digest requires separate review.",
+  "metadata_source": "https://developer.microsoft.com/microsoft-edge/api/webview2",
+  "download_page": "https://developer.microsoft.com/en-us/microsoft-edge/webview2/",
+  "deployment_documentation": "https://learn.microsoft.com/en-us/microsoft-edge/webview2/concepts/distribution",
+  "license_reviewed": true,
+  "license_review_scope": "Engineering review for a private local app bundle with significant app functionality, full EULA/notices and SmartScreen notice; not human legal consent.",
+  "cab_review_evidence": "Root independently computed complete SHA256 and verified Valid Microsoft Authenticode; preparer independently verified the same CAB signature before extraction.",
+  "license_url": "https://developer.microsoft.com/microsoft-edge/api/eula/webview2?locale=en-us&fixed=true",
+  "license_file": "tools/licenses/WebView2-Fixed-LICENSE.en-US.html",
+  "license_sha256": "13abe52770be9206cd86a6f4564c2923813d4fbaef8913d6a8704e4ec5c51b03",
+  "product_notice_files": [
+    {
+      "source": "tools/licenses/WebView2-Fixed-PRODUCT-NOTICES.zh-TW.md",
+      "filename": "Microsoft-WebView2-Fixed-PRODUCT-NOTICES.zh-TW.md",
+      "sha256": "c7610882cb88f4496a88dd3a68ffb5b73180e48d8205d760d60e1420a9969f28"
+    },
+    {
+      "source": "tools/licenses/WebView2-Fixed-SmartScreen-Section8.en-US.html",
+      "filename": "Microsoft-WebView2-Fixed-SmartScreen-Section8.en-US.html",
+      "sha256": "c2f3f1eae37488a966192dcb19c59be9fd68d5ef1ae218176b25e2b94cd8c1d3"
+    }
+  ],
+  "target_scope": "Windows 11 x64, local filesystem; no system installation or ACL modification"
+}

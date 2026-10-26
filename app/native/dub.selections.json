@@ -1,0 +1,15 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"bindbc-loader": "1.0.3",
+		"fghj": "1.0.2",
+		"i2d-opengl": "1.0.0",
+		"imagefmt": "2.1.2",
+		"inmath": "1.3.2",
+		"inochi2d": {"path":"../../.tools/src/inochi2d-v0.8.6"},
+		"mir-algorithm": "3.22.4",
+		"mir-core": "1.7.4",
+		"numem": "0.11.3",
+		"silly": "1.1.1"
+	}
+}

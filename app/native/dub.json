@@ -1,0 +1,16 @@
+{
+  "name": "cinderella-renderer",
+  "description": "Project-owned C interface to the unchanged Inochi2D 0.8.6 renderer.",
+  "targetType": "dynamicLibrary",
+  "targetName": "cinderella_renderer",
+  "targetPath": "../../build/desktop",
+  "dflags-ldc": ["-link-defaultlib-shared=false", "-dllimport=none"],
+  "versions": ["InDoesRender", "GL_32", "GL_ARB_gl_spirv", "GL_KHR_blend_equation_advanced", "GL_ARB_texture_filter_anisotropic"],
+  "sourcePaths": ["source", "../../.tools/src/inochi2d-v0.8.6/source"],
+  "importPaths": ["source", "../../.tools/src/inochi2d-v0.8.6/source"],
+  "stringImportPaths": ["../../.tools/src/inochi2d-v0.8.6/shaders"],
+  "dependencies": {
+    "imagefmt": "2.1.2", "inmath": "1.3.2", "i2d-opengl": "1.0.0",
+    "fghj": "1.0.2", "numem": "0.11.3", "silly": "1.1.1"
+  }
+}

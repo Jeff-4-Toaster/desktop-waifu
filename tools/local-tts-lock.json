@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "feature": "local-tts-melo-20261025",
+  "runtime": {
+    "version": "2.0.0",
+    "provider": "cpu",
+    "archive_prefix": "sherpa-onnx-v2.0.0-win-x64-shared-MT-Release",
+    "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/v2.0.0/sherpa-onnx-v2.0.0-win-x64-shared-MT-Release.tar.bz2",
+    "size": 26570586,
+    "checksum": {
+      "kind": "sha256",
+      "value": "a66a89c6f3401f3f26a6f53d39ea632900884cbd6a116155e2a85f434b6a7bda"
+    },
+    "license": "Apache-2.0"
+  },
+  "voice": {
+    "id": "melo-zh-en-female-int8",
+    "repository": "csukuangfj/vits-melo-tts-zh_en",
+    "revision": "a0d5c6a264c0ef92d70d8661d8cc502d79627cd6",
+    "license": "MIT",
+    "sample_rate": 44100,
+    "speakers": 1,
+    "scope": "Mandarin Chinese and lexicon-covered English. Traditional characters are supported within the supplied lexicon; Taiwanese accent and arbitrary English words are not certified."
+  },
+  "files": [
+    {
+      "path": "model/LICENSE",
+      "url": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/resolve/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/LICENSE",
+      "size": 1053,
+      "checksum": {
+        "kind": "git-blob-sha1",
+        "value": "7c49476032fa4cd6c8faa8eda042f38a31c4ea88"
+      }
+    },
+    {
+      "path": "model/README.md",
+      "url": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/resolve/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/README.md",
+      "size": 257,
+      "checksum": {
+        "kind": "git-blob-sha1",
+        "value": "146aa4632b14918d7f2212fd490d69ea010b3e4c"
+      }
+    },
+    {
+      "path": "model/date.fst",
+      "url": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/resolve/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/date.fst",
+      "size": 59154,
+      "checksum": {
+        "kind": "git-blob-sha1",
+        "value": "20ec7f4c077f9ec85ca9d01c4b4f4581f6e552ee"
+      }
+    },
+    {
+      "path": "model/dict/README.md",
+      "url": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/resolve/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/dict/README.md",
+      "size": 683,
+      "checksum": {
+        "kind": "git-blob-sha1",
+        "value": "887911898611a1032f606bdbbdd6315b7bf992f6"
+      }
+    },
+    {
+      "path": "model/dict/hmm_model.utf8",
+      "url": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/resolve/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/dict/hmm_model.utf8",
+      "size": 519739,
+      "checksum": {
+        "kind": "git-blob-sha1",
+        "value": "2e1f807a0f31eeee3abe4cd1e0a0419d143af96a"
+      }
+    },
+    {
+      "path": "model/dict/idf.utf8",
+      "url": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/resolve/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/dict/idf.utf8",
+      "size": 5998717,
+      "checksum": {
+        "kind": "git-blob-sha1",
+        "value": "4ca9cecfc1d4108d639f06b83d42ab930a79fa92"
+      }
+    },
+    {
+      "path": "model/dict/jieba.dict.utf8",
+      "url": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/resolve/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/dict/jieba.dict.utf8",
+      "size": 5071204,
+      "checksum": {
+        "kind": "git-blob-sha1",
+        "value": "0015948de30f38fa97dd20adef231c1909bd8efd"
+      }
+    },
+    {
+      "path": "model/dict/pos_dict/char_state_tab.utf8",
+      "url": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/resolve/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/dict/pos_dict/char_state_tab.utf8",
+      "size": 327139,
+      "checksum": {
+        "kind": "git-blob-sha1",
+        "value": "e1e4d8d815b2938d199f14c922398714286eef95"
+      }
+    },
+    {
+      "path": "model/dict/pos_dict/prob_emit.utf8",
+      "url": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/resolve/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/dict/pos_dict/prob_emit.utf8",
+      "size": 1687686,
+      "checksum": {
+        "kind": "git-blob-sha1",
+        "value": "cc207d11dc958a46f8f91d142bdb330f2b5d28a0"
+      }
+    },
+    {
+      "path": "model/dict/pos_dict/prob_start.utf8",
+      "url": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/resolve/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/dict/pos_dict/prob_start.utf8",
+      "size": 4347,
+      "checksum": {
+        "kind": "git-blob-sha1",
+        "value": "433750d56bed6affb5b1b2989044403bcef4448e"
+      }
+    },
+    {
+      "path": "model/dict/pos_dict/prob_trans.utf8",
+      "url": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/resolve/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/dict/pos_dict/prob_trans.utf8",
+      "size": 124159,
+      "checksum": {
+        "kind": "git-blob-sha1",
+        "value": "87e5ac5ca772a625f0a0f67352e9b31d6872461c"
+      }
+    },
+    {
+      "path": "model/dict/stop_words.utf8",
+      "url": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/resolve/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/dict/stop_words.utf8",
+      "size": 8974,
+      "checksum": {
+        "kind": "git-blob-sha1",
+        "value": "32ac9e67dc44222534de99cc298dccd4b8de9907"
+      }
+    },
+    {
+      "path": "model/dict/user.dict.utf8",
+      "url": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/resolve/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/dict/user.dict.utf8",
+      "size": 49,
+      "checksum": {
+        "kind": "git-blob-sha1",
+        "value": "6a42ee4e06fb197d968d2bb39becad65e01b2e57"
+      }
+    },
+    {
+      "path": "model/lexicon.txt",
+      "url": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/resolve/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/lexicon.txt",
+      "size": 6837671,
+      "checksum": {
+        "kind": "git-blob-sha1",
+        "value": "1a1119efceca0c2dae243f84061e70e4e3d99710"
+      }
+    },
+    {
+      "path": "model/model.int8.onnx",
+      "url": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/resolve/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/model.int8.onnx",
+      "size": 53517430,
+      "checksum": {
+        "kind": "sha256",
+        "value": "f085f5079e05f039b800aeb542f5253c26a303211b0c6465d0d9387977855a63"
+      }
+    },
+    {
+      "path": "model/new_heteronym.fst",
+      "url": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/resolve/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/new_heteronym.fst",
+      "size": 21974,
+      "checksum": {
+        "kind": "git-blob-sha1",
+        "value": "478a809252067229211f7f414414f34f98314d9d"
+      }
+    },
+    {
+      "path": "model/number.fst",
+      "url": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/resolve/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/number.fst",
+      "size": 64482,
+      "checksum": {
+        "kind": "git-blob-sha1",
+        "value": "66c0bd468903fc98d212cd6c3c5b2793ce8eb2c3"
+      }
+    },
+    {
+      "path": "model/phone.fst",
+      "url": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/resolve/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/phone.fst",
+      "size": 88630,
+      "checksum": {
+        "kind": "git-blob-sha1",
+        "value": "2eba908c27ec0767281cad25d322008b16869c5b"
+      }
+    },
+    {
+      "path": "model/tokens.txt",
+      "url": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/resolve/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/tokens.txt",
+      "size": 655,
+      "checksum": {
+        "kind": "git-blob-sha1",
+        "value": "78ed7abf73cfa7955577a2894388dcd8f5a317c3"
+      }
+    }
+  ],
+  "notices": [
+    {
+      "path": "licenses/SherpaOnnx-Apache-2.0.txt",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/v2.0.0/LICENSE",
+      "size": 11358,
+      "checksum": {
+        "kind": "sha256",
+        "value": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    },
+    {
+      "path": "licenses/ONNXRuntime-MIT.txt",
+      "url": "https://raw.githubusercontent.com/microsoft/onnxruntime/v1.28.2/LICENSE",
+      "size": 1073,
+      "checksum": {
+        "kind": "sha256",
+        "value": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+      }
+    },
+    {
+      "path": "licenses/ONNXRuntime-ThirdPartyNotices.txt",
+      "url": "https://raw.githubusercontent.com/microsoft/onnxruntime/v1.28.2/ThirdPartyNotices.txt",
+      "size": 325054,
+      "checksum": {
+        "kind": "git-blob-sha1",
+        "value": "fbd9f9a95f6013d8ecaef81e02b0033e5882a675"
+      }
+    },
+    {
+      "path": "licenses/CppJieba-MIT.txt",
+      "url": "https://raw.githubusercontent.com/yanyiwu/cppjieba/b9c787eb7750a8449400e7d7f59cf86237c23154/LICENSE",
+      "size": 1066,
+      "checksum": {
+        "kind": "sha256",
+        "value": "ba898a14f729ba5e9965da34e3eecd5edd3795f2cc5d7c923b815ba79bb851b0"
+      }
+    },
+    {
+      "path": "licenses/CMUDict-BSD.txt",
+      "url": "https://raw.githubusercontent.com/cmusphinx/cmudict/74790861f652b15e4ac49015a90074ad62a27690/LICENSE",
+      "size": 1754,
+      "checksum": {
+        "kind": "sha256",
+        "value": "bd4ce8e44170a5f9f481310ca85c51de3c4f851a65e679b40e603b143bd3542a"
+      }
+    },
+    {
+      "path": "licenses/WeTextProcessing-Apache-2.0.txt",
+      "url": "https://raw.githubusercontent.com/wenet-e2e/WeTextProcessing/039007e6b819bd40c4c4a0644f3939da1da47e44/LICENSE",
+      "size": 11357,
+      "checksum": {
+        "kind": "sha256",
+        "value": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      }
+    },
+    {
+      "path": "licenses/PyPinyin-MIT.txt",
+      "url": "https://raw.githubusercontent.com/mozillazg/python-pinyin/85bf408b3b326676e4e1ffa727f8063774f709f6/LICENSE.txt",
+      "size": 1105,
+      "checksum": {
+        "kind": "sha256",
+        "value": "1e6c90014b4912815c296ee64bb6f6280af47e6d4c5d80e86232dfc5defe764c"
+      }
+    },
+    {
+      "path": "licenses/PinyinData-MIT.txt",
+      "url": "https://raw.githubusercontent.com/mozillazg/pinyin-data/9d05c9e29cb6a7e5c79f2f5279f5c1014246a19a/LICENSE",
+      "size": 1076,
+      "checksum": {
+        "kind": "sha256",
+        "value": "9c048697be2502a16e8bcb282d5d465a07295b2def0ffb05a269c5d39dbe1586"
+      }
+    },
+    {
+      "path": "licenses/PhrasePinyinData-MIT.txt",
+      "url": "https://raw.githubusercontent.com/mozillazg/phrase-pinyin-data/005814e5c481a5cc648db963db668db8f7c32199/LICENSE",
+      "size": 1066,
+      "checksum": {
+        "kind": "sha256",
+        "value": "89ac55df747e4776088c3e77531ef61b973a1a59dd8e6a4548a58996da9a4f70"
+      }
+    }
+  ],
+  "license_coverage": {
+    "weights_and_model_files": {
+      "notice": "model/LICENSE",
+      "license": "MIT",
+      "evidence": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/blob/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/LICENSE"
+    },
+    "lexicon_and_tokens": {
+      "notices": [
+        "model/LICENSE",
+        "licenses/PyPinyin-MIT.txt",
+        "licenses/PinyinData-MIT.txt",
+        "licenses/PhrasePinyinData-MIT.txt",
+        "licenses/CMUDict-BSD.txt"
+      ],
+      "evidence": "https://github.com/k2-fsa/sherpa-onnx/blob/v2.0.0/scripts/melo-tts/export-onnx.py"
+    },
+    "jieba_dictionaries": {
+      "notice": "licenses/CppJieba-MIT.txt",
+      "evidence": "https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/blob/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6/dict/README.md",
+      "note": "Preserved as upstream companion data; v2.0.0 keeps dict_dir only for ABI compatibility."
+    },
+    "normalization_fsts": {
+      "notices": [
+        "model/LICENSE",
+        "licenses/SherpaOnnx-Apache-2.0.txt",
+        "licenses/WeTextProcessing-Apache-2.0.txt"
+      ],
+      "note": "Use bundled phone/date/number FSTs as supplied; retain publisher MIT plus text-normalization attribution."
+    },
+    "runtime": {
+      "notices": [
+        "licenses/SherpaOnnx-Apache-2.0.txt",
+        "licenses/ONNXRuntime-MIT.txt",
+        "licenses/ONNXRuntime-ThirdPartyNotices.txt"
+      ],
+      "note": "v2.0.0 removed espeak-ng and piper-phonemize. Do not mix older runtime binaries or unrelated voice data."
+    }
+  },
+  "integrity_note": "Runtime and ONNX are SHA256-pinned. Non-LFS text/frontend artifacts use their pinned Git blob SHA1, including Git's blob header, until explicit preparation verifies them and records SHA256 for every local file. No network occurs without --download."
+}

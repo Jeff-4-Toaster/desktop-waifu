@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "ldcVersion": "1.43.0",
+  "dubVersion": "1.42.0",
+  "assets": [
+    {
+      "name": "ldc2-1.43.0-windows-x64.7z",
+      "size": 45810532,
+      "digest": "sha256:60ae3d5e34287aa25433c7550520060a52f9f212e3d5ff6472a9067d8d17e47e",
+      "browser_download_url": "https://github.com/ldc-developers/ldc/releases/download/v1.43.0/ldc2-1.43.0-windows-x64.7z"
+    }
+  ],
+  "inochi2d": {
+    "tag": "v0.8.6",
+    "commit": "dda3a8f005f808104caa43183ab8753fb989e30f"
+  }
+}

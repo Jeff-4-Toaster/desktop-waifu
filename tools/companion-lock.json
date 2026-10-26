@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-22",
+  "llama": "b11669",
+  "whisper": "v1.8.3",
+  "downloads": [
+    {
+      "name": "llama-b11669-bin-win-cuda-12.4-x64.zip",
+      "size": 266582698,
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11669/llama-b11669-bin-win-cuda-12.4-x64.zip",
+      "sha256": "c2da1f73ed176ae093ac5aceb978a7b167a16113f6d74c6789eeaee2135cb8dc",
+      "path": ".tools/downloads/companion/llama-b11669-bin-win-cuda-12.4-x64.zip"
+    },
+    {
+      "name": "cudart-llama-bin-win-cuda-12.4-x64.zip",
+      "size": 391443627,
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11669/cudart-llama-bin-win-cuda-12.4-x64.zip",
+      "sha256": "8c79a9b226de4b3cacfd1f83d24f962d0773be79f1e7b75c6af4ded7e32ae1d6",
+      "path": ".tools/downloads/companion/cudart-llama-bin-win-cuda-12.4-x64.zip"
+    },
+    {
+      "name": "whisper-bin-x64.zip",
+      "size": 3968674,
+      "url": "https://github.com/ggml-org/whisper.cpp/releases/download/v1.8.3/whisper-bin-x64.zip",
+      "sha256": "d824b1e37599f882b396e73f1ee0bfd5d0529f700314c48311dcbd00b803321d",
+      "path": ".tools/downloads/companion/whisper-bin-x64.zip"
+    },
+    {
+      "name": "Qwen3-4B-Q4_K_M.gguf",
+      "size": 2497280256,
+      "url": "https://huggingface.co/Qwen/Qwen3-4B-GGUF/resolve/bc640142c66e1fdd12af0bd68f40445458f3869b/Qwen3-4B-Q4_K_M.gguf",
+      "sha256": "7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5",
+      "revision": "bc640142c66e1fdd12af0bd68f40445458f3869b",
+      "license": "Apache-2.0",
+      "path": "models/companion/Qwen3-4B-Q4_K_M.gguf"
+    },
+    {
+      "name": "Qwen3-8B-Q4_K_M.gguf",
+      "size": 5027783488,
+      "url": "https://huggingface.co/Qwen/Qwen3-8B-GGUF/resolve/7c41481f57cb95916b40956ab2f0b139b296d974/Qwen3-8B-Q4_K_M.gguf",
+      "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+      "license": "Apache-2.0",
+      "path": "models/companion/Qwen3-8B-Q4_K_M.gguf"
+    },
+    {
+      "name": "ggml-small-q5_1.bin",
+      "size": 190085487,
+      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-small-q5_1.bin",
+      "sha256": "ae85e4a935d7a567bd102fe55afc16bb595bdb618e11b2fc7591bc08120411bb",
+      "revision": "5359861c739e955e79d9a303bcbc70fb988958b1",
+      "license": "MIT",
+      "path": "models/companion/ggml-small-q5_1.bin"
+    },
+    {
+      "name": "python-embed",
+      "url": "https://www.python.org/ftp/python/3.13.13/python-3.13.13-embed-amd64.zip",
+      "sha256": "8766a8775746235e23cf5aee5027ab1060bb981d93110577adcf3508aa0cbd55",
+      "path": ".tools/downloads/companion/python-3.13.13-embed-amd64.zip"
+    },
+    {
+      "name": "webview2-sdk",
+      "url": "https://api.nuget.org/v3-flatcontainer/microsoft.web.webview2/1.0.4258.31/microsoft.web.webview2.1.0.4258.31.nupkg",
+      "sha256": "56f7f4b8bf9aee4b8efefbbdd4f67d5f74ebd1b100ed0806da71bf76af481aa9",
+      "path": ".tools/downloads/companion/microsoft.web.webview2.1.0.4258.31.zip"
+    },
+    {
+      "name": "llama-license",
+      "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/b11669/LICENSE",
+      "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d",
+      "path": "build/companion-setup/llama-LICENSE.txt"
+    },
+    {
+      "name": "whisper-license",
+      "url": "https://raw.githubusercontent.com/ggml-org/whisper.cpp/v1.8.3/LICENSE",
+      "sha256": "e562a2ddfaf8280537795ac5ecd34e3012b6582a147ef69ba6a6a5c08c84757d",
+      "path": "build/companion-setup/whisper-LICENSE.txt"
+    },
+    {
+      "name": "qwen-license",
+      "url": "https://huggingface.co/Qwen/Qwen3-4B/resolve/main/LICENSE",
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+      "path": "build/companion-setup/Qwen-Apache-2.0.txt"
+    },
+    {
+      "name": "whisper-header-whisper.h",
+      "url": "https://raw.githubusercontent.com/ggml-org/whisper.cpp/v1.8.3/include/whisper.h",
+      "sha256": "0525b758571ab71c00ddd8ea2845f74af7c62dfa5100c5586655f75bdc5ef4be",
+      "path": ".tools/whisper-v1.8.3/headers/whisper.h"
+    },
+    {
+      "name": "whisper-header-ggml.h",
+      "url": "https://raw.githubusercontent.com/ggml-org/whisper.cpp/v1.8.3/ggml/include/ggml.h",
+      "sha256": "70c93e25d18b661ef982ee3cab8dd75734d9cd20b59bca5deb7073a5e6f338e1",
+      "path": ".tools/whisper-v1.8.3/headers/ggml.h"
+    },
+    {
+      "name": "whisper-header-ggml-cpu.h",
+      "url": "https://raw.githubusercontent.com/ggml-org/whisper.cpp/v1.8.3/ggml/include/ggml-cpu.h",
+      "sha256": "6d57ebc3df51169c0f0d4d6e9459595fa0568fa1b515546735067c6ecfd4bc63",
+      "path": ".tools/whisper-v1.8.3/headers/ggml-cpu.h"
+    },
+    {
+      "name": "whisper-header-ggml-backend.h",
+      "url": "https://raw.githubusercontent.com/ggml-org/whisper.cpp/v1.8.3/ggml/include/ggml-backend.h",
+      "sha256": "3774c77515070f40f7dfb0aefdcb36f940537730e5891431dfeea338723923d5",
+      "path": ".tools/whisper-v1.8.3/headers/ggml-backend.h"
+    },
+    {
+      "name": "whisper-header-ggml-alloc.h",
+      "url": "https://raw.githubusercontent.com/ggml-org/whisper.cpp/v1.8.3/ggml/include/ggml-alloc.h",
+      "sha256": "3793a2175be355619cc426982706b7fa94ad801b66d2aeef4b95e68c434ba0ef",
+      "path": ".tools/whisper-v1.8.3/headers/ggml-alloc.h"
+    },
+    {
+      "name": "cuda-license",
+      "url": "https://docs.nvidia.com/cuda/archive/12.4.1/pdf/EULA.pdf",
+      "path": "build/companion-setup/NVIDIA-CUDA-12.4-EULA.pdf",
+      "sha256": "6ada441ae5a45a4a3d51ade8850fa2229fc6dd95de0c9da6e2cdd7a46701b844"
+    },
+    {
+      "name": "msvc-license",
+      "url": "https://visualstudio.microsoft.com/wp-content/uploads/2025/10/Visual-C-V14-License-Redistributable_and_Runtime_ENU.docx",
+      "path": "build/companion-setup/Microsoft-VC14-Runtime-License.docx",
+      "sha256": "08651651a7602fc7c0e2763de0fde1ff9f868df2780597cd1775ee9d6441c783"
+    }
+  ]
+}

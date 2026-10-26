@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "feature": "model-packages-m1-20261024",
+  "packages": {
+    "4B": {
+      "name": "Qwen3-4B-Q4_K_M.gguf",
+      "size": 2497280256,
+      "url": "https://huggingface.co/Qwen/Qwen3-4B-GGUF/resolve/bc640142c66e1fdd12af0bd68f40445458f3869b/Qwen3-4B-Q4_K_M.gguf",
+      "sha256": "7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5",
+      "license": "Apache-2.0",
+      "revision": "bc640142c66e1fdd12af0bd68f40445458f3869b",
+      "id": "qwen3-4b-q4-k-m",
+      "architecture": "qwen3",
+      "quantization": "Q4_K_M",
+      "source_repository": "https://huggingface.co/Qwen/Qwen3-4B-GGUF",
+      "license_url": "https://huggingface.co/Qwen/Qwen3-4B-GGUF/blob/bc640142c66e1fdd12af0bd68f40445458f3869b/LICENSE",
+      "source_checked_on": "2026-10-24",
+      "backend": {
+        "build": "b11669",
+        "runtime": "cuda-12.4",
+        "architecture": "qwen3",
+        "template": "gguf-jinja-enable-thinking-false"
+      },
+      "thinking": {
+        "model_capable": true,
+        "benchmark_enabled": false,
+        "production_enabled": false
+      },
+      "trial_context_tokens": [
+        4096,
+        8192,
+        16384
+      ],
+      "trial_max_reply_tokens": 512,
+      "trial_minimum": {
+        "ram_total_bytes": 12884901888,
+        "ram_available_bytes": 6442450944,
+        "vram_reserve_bytes": 1073741824
+      },
+      "recommended": {
+        "ram_total_bytes": 34359738368,
+        "vram_total_bytes": 8589934592
+      },
+      "release_enabled": false,
+      "validated_configurations": [],
+      "notes": "M1 隔離試跑規格；不改變日常4B/8B選單。門檻為保守估算，需實測。"
+    },
+    "8B": {
+      "name": "Qwen3-8B-Q4_K_M.gguf",
+      "size": 5027783488,
+      "url": "https://huggingface.co/Qwen/Qwen3-8B-GGUF/resolve/7c41481f57cb95916b40956ab2f0b139b296d974/Qwen3-8B-Q4_K_M.gguf",
+      "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "license": "Apache-2.0",
+      "revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+      "id": "qwen3-8b-q4-k-m",
+      "architecture": "qwen3",
+      "quantization": "Q4_K_M",
+      "source_repository": "https://huggingface.co/Qwen/Qwen3-8B-GGUF",
+      "license_url": "https://huggingface.co/Qwen/Qwen3-8B-GGUF/blob/7c41481f57cb95916b40956ab2f0b139b296d974/LICENSE",
+      "source_checked_on": "2026-10-24",
+      "backend": {
+        "build": "b11669",
+        "runtime": "cuda-12.4",
+        "architecture": "qwen3",
+        "template": "gguf-jinja-enable-thinking-false"
+      },
+      "thinking": {
+        "model_capable": true,
+        "benchmark_enabled": false,
+        "production_enabled": false
+      },
+      "trial_context_tokens": [
+        4096,
+        8192,
+        16384
+      ],
+      "trial_max_reply_tokens": 512,
+      "trial_minimum": {
+        "ram_total_bytes": 12884901888,
+        "ram_available_bytes": 6442450944,
+        "vram_reserve_bytes": 1073741824
+      },
+      "recommended": {
+        "ram_total_bytes": 34359738368,
+        "vram_total_bytes": 8589934592
+      },
+      "release_enabled": false,
+      "validated_configurations": [],
+      "notes": "M1 隔離試跑規格；不改變日常4B/8B選單。門檻為保守估算，需實測。"
+    },
+    "14B": {
+      "name": "Qwen3-14B-Q4_K_M.gguf",
+      "size": 9001752960,
+      "url": "https://huggingface.co/Qwen/Qwen3-14B-GGUF/resolve/530227a7d994db8eca5ab5ced2fb692b614357fd/Qwen3-14B-Q4_K_M.gguf",
+      "sha256": "500a8806e85ee9c83f3ae08420295592451379b4f8cf2d0f41c15dffeb6b81f0",
+      "license": "Apache-2.0",
+      "revision": "530227a7d994db8eca5ab5ced2fb692b614357fd",
+      "id": "qwen3-14b-q4-k-m",
+      "architecture": "qwen3",
+      "quantization": "Q4_K_M",
+      "source_repository": "https://huggingface.co/Qwen/Qwen3-14B-GGUF",
+      "license_url": "https://huggingface.co/Qwen/Qwen3-14B-GGUF/blob/530227a7d994db8eca5ab5ced2fb692b614357fd/LICENSE",
+      "source_checked_on": "2026-10-24",
+      "backend": {
+        "build": "b11669",
+        "runtime": "cuda-12.4",
+        "architecture": "qwen3",
+        "template": "gguf-jinja-enable-thinking-false"
+      },
+      "thinking": {
+        "model_capable": true,
+        "benchmark_enabled": false,
+        "production_enabled": false
+      },
+      "trial_context_tokens": [
+        4096,
+        8192
+      ],
+      "trial_max_reply_tokens": 512,
+      "trial_minimum": {
+        "ram_total_bytes": 21474836480,
+        "ram_available_bytes": 6442450944,
+        "vram_reserve_bytes": 1610612736
+      },
+      "recommended": {
+        "ram_total_bytes": 34359738368,
+        "vram_total_bytes": 17179869184
+      },
+      "release_enabled": false,
+      "validated_configurations": [],
+      "notes": "M1 隔離試跑規格；不改變日常4B/8B選單。門檻為保守估算，需實測。 官方卡native32K與GGUF40960資訊有差異；本批僅試4K/8K。"
+    }
+  }
+}

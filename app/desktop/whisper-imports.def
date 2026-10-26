@@ -1,0 +1,10 @@
+LIBRARY whisper.dll
+EXPORTS
+    whisper_context_default_params
+    whisper_init_from_buffer_with_params
+    whisper_full_default_params
+    whisper_full
+    whisper_full_n_segments
+    whisper_full_get_segment_text
+    whisper_free
+    whisper_log_set
